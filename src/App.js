@@ -9,10 +9,8 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-        <>
-          <Route exact={true} path={"/"} component={Home} />
-          <Route exact={true} path={"/detail/:movieId"} component={Detail} />
-        </>
+        <Route exact={true} path={"/"} component={Home} />
+        <Route exact={true} path={"/detail/:movieId"} component={Detail} />
       </Router>
     </ApolloProvider>
   );
