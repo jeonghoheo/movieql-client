@@ -1,6 +1,11 @@
 import React from "react";
 
-const Detail = () => {
+const Detail = props => {
+  const {
+    match: {
+      params: { movieId }
+    }
+  } = props;
   return <div>Detail</div>;
 };
 
