@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+  @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500');
   ${reset};
   body{
     font-family: 'Maven Pro', sans-serif;
